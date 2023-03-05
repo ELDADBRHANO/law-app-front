@@ -12,7 +12,7 @@ const initialState = {
 }
 
 export const signUpUser = createAsyncThunk('signUpUser', async (body) => {
-    const res = await fetch('http://localhost:8000/api/users/signUp', {
+    const res = await fetch('https://law-server.onrender.com/users/signUp', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -25,7 +25,7 @@ export const signUpUser = createAsyncThunk('signUpUser', async (body) => {
 
 export const signInUser = createAsyncThunk('signInUser', async (body) => {
 
-    return await fetch('http://localhost:8000/api/users/signIn', {
+    return await fetch('https://law-server.onrender.com/users/signIn', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',

@@ -3,7 +3,7 @@ import Cookies from "js-cookie";
 export const updateProfile = async (user) => {
   console.log(user);
   const userId = Cookies.get("userId");
-  return await fetch(`http://localhost:8000/api/users/update/${userId}`, {
+  return await fetch(`https://law-server.onrender.com/api/users/update/${userId}`, {
     method: "PUT",
     headers: {
       "Content-type": "application/json",

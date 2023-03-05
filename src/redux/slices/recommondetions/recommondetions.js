@@ -7,7 +7,7 @@ const initialState = {
 
 
 export const getRecommendations = createAsyncThunk('recommendations/getRecommendations',async()=>{
-  return fetch('http://localhost:8000/api/recommendations') 
+  return fetch('https://law-server.onrender.com/api/recommendations') 
   .then((res)=>res.json()) 
 })
 

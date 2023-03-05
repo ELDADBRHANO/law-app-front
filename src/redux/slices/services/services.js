@@ -8,7 +8,7 @@ let initialState = {
 
 
 export const getServices = createAsyncThunk('services/getServices',async()=>{
-  return fetch('http://localhost:8000/api/services') 
+  return fetch('https://law-server.onrender.com/api/services') 
   .then((res)=>res.json()) 
 })
 

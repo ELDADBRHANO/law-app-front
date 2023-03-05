@@ -7,7 +7,7 @@ const initialState = {
 
 
 export const getAllSubServices = createAsyncThunk('subServices/getAllSubServices',async()=>{
-  return fetch('http://localhost:8000/api/sub-service') 
+  return fetch('https://law-server.onrender.com/api/sub-service') 
   .then((res)=>res.json()) 
 })
 

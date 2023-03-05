@@ -7,12 +7,12 @@ const initialState = {
 
 
 export const getOrders = createAsyncThunk('orders/getAllOrders', async () => {
-  return fetch('http://localhost:8000/api/orders')
+  return fetch('https://law-server.onrender.com/api/orders')
     .then((res) => res.json())
 })
 export const postOrders = createAsyncThunk('orders/create', async (body) => {
 
-  return await fetch('http://localhost:8000/api/orders/create', {
+  return await fetch('https://law-server.onrender.com/api/orders/create', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
