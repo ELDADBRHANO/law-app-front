@@ -43,6 +43,10 @@ Users can contact lawyers directly through the platform by clicking on the lawye
 
 Contributions to the Legal Help Web Application are welcome. To contribute, please fork the repository, create a new branch, make your changes, and submit a pull request.
 
+## Live Project
+
+The live version of this project is available at: https://find-a-lawyer.onrender.com/
+
 ## Authors
 
 * Eldad Brhano(https://github.com/ELDADBRHANO)
