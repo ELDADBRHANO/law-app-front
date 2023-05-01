@@ -20,7 +20,7 @@ const NavbarHeader = () => {
   const Navigate = useNavigate();
   useEffect(() => {
     const getLawyers = async () => {
-      return await fetch("http://localhost:8000/api/users/getAllLawyers")
+      return await fetch("https://law-server.onrender.com/api/users/getAllLawyers")
         .then((res) => res.json())
         .then((res) => setLawyers(res.data))
         .catch((err) => console.log(err));
