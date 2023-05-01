@@ -48,7 +48,6 @@ const userSlice = createSlice({
             state.user = localStorage.getItem('user')
         },
         logout: (state, action) => {
-            console.log('remove');
             state.token = null;
             Cookies.remove("user")
             Cookies.remove("userName")
@@ -58,7 +57,6 @@ const userSlice = createSlice({
     },
     extraReducers: {
         [signInUser.pending]: (state, action) => {
-            console.log(state.loading);
             state.loading = true
         },
         [signInUser.fulfilled]: (state, { payload }) => {

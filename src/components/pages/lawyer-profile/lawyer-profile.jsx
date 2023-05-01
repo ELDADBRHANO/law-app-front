@@ -10,7 +10,6 @@ const LawyerProfile = () => {
   const { lawyerprofileId, subService } = useParams();
   const { services, subServices, loading } = useSelector((state) => state.services);
   const lawyerToFound = services.data?.map(item => item.subService.map(item => item.lawyers.find(item => item._id == lawyerprofileId)));
-  // console.log(subService);
   const lawyersImg = [
     "https://images.pexels.com/photos/7841828/pexels-photo-7841828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/14634932/pexels-photo-14634932.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",

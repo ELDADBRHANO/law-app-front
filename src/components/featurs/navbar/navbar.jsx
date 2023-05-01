@@ -33,7 +33,6 @@ const NavbarHeader = () => {
     setFullName(Cookies.get("userName"));
   }, [user]);
   let d = subServices?.data?.map((item) => item?._id);
-  console.log(subServices);
   const navigateTo = () => {
     Navigate(`/lawyerprofile/${lawyerId}/63b5a05f0a0baae428bfbbd9`);
   };

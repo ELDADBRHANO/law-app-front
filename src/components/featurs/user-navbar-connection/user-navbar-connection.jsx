@@ -9,9 +9,7 @@ import { Link } from "react-router-dom";
 const UserNavbarConnection = () => {
   const { user, userLoading } = useSelector((state) => state.users);
   const [fullName, setFullName] = useState("");
-  // console.log(Cookies.get("user"));
   useEffect(() => {
-    // setFullName(localStorage.getItem('userName')  )
     setFullName(Cookies.get("userName"));
   }, [user]);
   return (

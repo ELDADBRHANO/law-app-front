@@ -7,7 +7,6 @@ import { useEffect } from "react";
 import { getAllSubServices } from "../../../redux/slices/subServices/sucServices";
 
 const SubServicesCard = ({ agreementName, agreementDescription, lawyersId }) => {
-// console.log(lawyersId);
   return (
     <Card className="SubServicesCard mt-3 mb-2">
       <div className="SubServicesCard-img">

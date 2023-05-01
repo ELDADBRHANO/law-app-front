@@ -18,7 +18,6 @@ const SubServices = ({ servicesData }) => {
   const serviceToFound = services.data.find(item => item._id == id)
   return (
     <Container>
-      {/* {console.log(serviceToFound)} */}
       <h1 className="h1MainHeadLine">Sub Services</h1>
       <Row className='mb-5 mt-5'>
         {

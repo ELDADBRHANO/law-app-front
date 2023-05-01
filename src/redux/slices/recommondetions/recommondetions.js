@@ -32,12 +32,3 @@ export default recommendationsSlice.reducer;
 
 
 
-//  TODO add recommendations component and use data!
-
-// const { recommendations, recommendationsLoading } = useSelector((state) => state.recommendations);
-// const dispatch = useDispatch();
-// console.log(recommendations);
-// useEffect(() => {
-//   
-//   dispatch(getRecommendations());
-// }, []);

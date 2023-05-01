@@ -26,7 +26,6 @@ const SignUp = () => {
     );
   };
   useEffect(() => {
-    console.log(user);
     if (user.massage == "success") {
       return navigate("/login");
     } else return user.massage;

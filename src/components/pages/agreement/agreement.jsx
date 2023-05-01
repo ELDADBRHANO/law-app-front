@@ -39,10 +39,7 @@ const Agreement = () => {
     })
 
     const data = {...agreement,agreementForm};
-    // console.log(clientOrder);
-    console.log(data);
-  // console.log(agreementForm);
-  // console.log(clientOrder);
+ 
 
   const dispatch = useDispatch();
   const { orders } = useSelector((state) => state.orders);

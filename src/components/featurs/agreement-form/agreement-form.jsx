@@ -19,8 +19,6 @@ const AgreementForm = ({ subService, onchangeClientForm }) => {
     onchangeClientForm((prev) => {
       return { ...prev, [name]: value };
     })
-    // Cookies.set("clientDetails", clientDetails)
-    // console.log(clientDetails);
   }
 
   return (

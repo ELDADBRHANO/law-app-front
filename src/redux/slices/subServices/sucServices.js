@@ -32,12 +32,3 @@ export default subServicesSlice.reducer;
 
 
 
-//  TODO add subService component and use data!
-
-// const { subServices, load } = useSelector((state) => state.subServices);
-// const dispatch = useDispatch();
-// console.log(subServices);
-// useEffect(() => {
-//   dispatch(getServices());
-//   dispatch(getAllSubServices());
-// }, []);

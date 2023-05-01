@@ -8,7 +8,6 @@ import { getServices } from "../../../redux/slices/services/services";
 
 const LawSubjects = () => {
   const { services, loading } = useSelector((state) => state.services);
-  // console.log(services);
   const dispatch = useDispatch();
 
   useEffect(() => {

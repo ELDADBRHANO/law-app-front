@@ -57,11 +57,3 @@ export default ordersSlice.reducer;
 
 
 
-//  TODO add orders component and use data!
-
-// const { orders, ordersLoading } = useSelector((state) => state.orders);
-// const dispatch = useDispatch();
-// console.log(orders);
-// useEffect(() => {
-//   dispatch(getOrders());
-// }, []);
